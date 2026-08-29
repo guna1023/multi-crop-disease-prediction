@@ -1,0 +1,24 @@
+TEST SET RESULTS
+==================================================
+Accuracy : 95.18%
+Precision: 95.33%
+Recall   : 95.18%
+F1-score : 95.14%
+
+Classification Report:
+                                                    precision    recall  f1-score   support
+
+Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot       0.98      0.90      0.94       247
+                       Corn_(maize)___Common_rust_       0.99      1.00      0.99       287
+               Corn_(maize)___Northern_Leaf_Blight       0.92      0.98      0.95       287
+                            Corn_(maize)___healthy       1.00      1.00      1.00       280
+                           Tomato___Bacterial_spot       0.95      0.96      0.95       256
+                             Tomato___Early_blight       0.97      0.82      0.89       288
+                              Tomato___Late_blight       0.95      0.94      0.95       279
+                                Tomato___Leaf_Mold       0.97      0.96      0.97       283
+                       Tomato___Septoria_leaf_spot       0.86      0.95      0.90       263
+                                  Tomato___healthy       0.94      1.00      0.97       290
+
+                                          accuracy                           0.95      2760
+                                         macro avg       0.95      0.95      0.95      2760
+                                      weighted avg       0.95      0.95      0.95      2760
